@@ -1,6 +1,7 @@
 # SlidingUpPanel Issue
 
 Source: https://github.com/umano/AndroidSlidingUpPanel
+
 Issue: https://github.com/umano/AndroidSlidingUpPanel/issues/356
 
 This sample highlights an issue when using an EditText within the main content view (second child) of SlidingUpPanel layout. The EditText is expected to be repositioned above the soft keyboard when the keyboard appears. The behavior works as expected when the MainActivity is first launched. However, once interaction with the draggable view has occurred, the EditText's position will never be updated.
