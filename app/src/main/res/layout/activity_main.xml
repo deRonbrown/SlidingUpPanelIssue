@@ -18,8 +18,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="top"
-        app:panelHeight="80dp"
-        app:shadowHeight="4dp">
+        app:umanoPanelHeight="80dp"
+        app:umanoShadowHeight="4dp">
 
         <LinearLayout
             android:layout_height="match_parent"
